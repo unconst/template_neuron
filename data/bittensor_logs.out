@@ -1,227 +1,286 @@
-2020-06-08 17:06:21.685 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:06:21.745 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:06:21.803 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:06:21.861 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:06:21.921 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:06:21.977 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:06:22.033 | DEBUG    | __main__:<module>:1 - identity: ejcyyxz
-2020-06-08 17:06:22.092 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:06:22.150 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:06:22.209 | DEBUG    | __main__:<module>:1 - port: 5410
-2020-06-08 17:06:22.274 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:06:22.333 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:06:22.391 | DEBUG    | __main__:<module>:1 - logdir: data/ejcyyxz/logs
-2020-06-08 17:06:22.449 | DEBUG    | __main__:<module>:1 - neuron: Mach
-2020-06-08 17:06:22.506 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:06:22.563 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:06:22.621 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:10:28.553 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:10:28.610 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:10:28.668 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:10:28.725 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:10:28.782 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:10:28.840 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:10:28.896 | DEBUG    | __main__:<module>:1 - identity: vrtyjrf
-2020-06-08 17:10:28.953 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:10:29.009 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:10:29.066 | DEBUG    | __main__:<module>:1 - port: 20481
-2020-06-08 17:10:29.122 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:10:29.179 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:10:29.236 | DEBUG    | __main__:<module>:1 - logdir: data/vrtyjrf/logs
-2020-06-08 17:10:29.293 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 17:10:29.348 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:10:29.405 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:10:29.462 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:11:47.882 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:11:47.939 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:11:47.996 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:11:48.055 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:11:48.112 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:11:48.170 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:11:48.228 | DEBUG    | __main__:<module>:1 - identity: pipfvdt
-2020-06-08 17:11:48.286 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:11:48.343 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:11:48.399 | DEBUG    | __main__:<module>:1 - port: 6595
-2020-06-08 17:11:48.457 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:11:48.515 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:11:48.573 | DEBUG    | __main__:<module>:1 - logdir: data/pipfvdt/logs
-2020-06-08 17:11:48.630 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 17:11:48.689 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:11:48.747 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:11:48.804 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:12:32.241 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:12:32.299 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:12:32.357 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:12:32.416 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:12:32.474 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:12:32.533 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:12:32.591 | DEBUG    | __main__:<module>:1 - identity: agsplmk
-2020-06-08 17:12:32.650 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:12:32.708 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:12:32.766 | DEBUG    | __main__:<module>:1 - port: 16203
-2020-06-08 17:12:32.823 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:12:32.883 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:12:32.941 | DEBUG    | __main__:<module>:1 - logdir: data/agsplmk/logs
-2020-06-08 17:12:32.999 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 17:12:33.058 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:12:33.116 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:12:33.175 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:12:34.433 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh agsplmk 172.17.0.1 0.0.0.0 16203 http://172.17.0.1:8888 data/agsplmk/logs template
-2020-06-08 17:12:34.491 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 17:12:34.549 | DEBUG    | __main__:<module>:1 - === container image: bittensor:latest ===
-2020-06-08 17:12:34.634 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 17:12:34.717 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 17:19:37.552 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:19:37.615 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:19:37.690 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:19:37.751 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:19:37.811 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:19:37.872 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:19:37.935 | DEBUG    | __main__:<module>:1 - identity: kfqmefg
-2020-06-08 17:19:37.996 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:19:38.060 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:19:38.120 | DEBUG    | __main__:<module>:1 - port: 29714
-2020-06-08 17:19:38.180 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:19:38.241 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:19:38.300 | DEBUG    | __main__:<module>:1 - logdir: data/kfqmefg/logs
-2020-06-08 17:19:38.361 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 17:19:38.422 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:19:38.485 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:19:38.547 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:19:42.067 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh kfqmefg 172.17.0.1 0.0.0.0 29714 http://172.17.0.1:8888 data/kfqmefg/logs template
-2020-06-08 17:19:42.127 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 17:19:42.188 | DEBUG    | __main__:<module>:1 - === container image: bittensor:latest ===
-2020-06-08 17:19:42.274 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 17:19:42.360 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 17:23:55.325 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 17:23:55.385 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 17:23:55.444 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 17:23:55.503 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 17:23:55.562 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 17:23:55.620 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 17:23:55.679 | DEBUG    | __main__:<module>:1 - identity: hshheua
-2020-06-08 17:23:55.737 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 17:23:55.795 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 17:23:55.853 | DEBUG    | __main__:<module>:1 - port: 35012
-2020-06-08 17:23:55.916 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 17:23:55.973 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 17:23:56.033 | DEBUG    | __main__:<module>:1 - logdir: data/hshheua/logs
-2020-06-08 17:23:56.090 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 17:23:56.149 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 17:23:56.207 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 17:23:56.266 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 17:23:58.113 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh hshheua 172.17.0.1 0.0.0.0 35012 http://172.17.0.1:8888 data/hshheua/logs template
-2020-06-08 17:23:58.172 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 17:23:58.232 | DEBUG    | __main__:<module>:1 - === container image: bittensor:latest ===
-2020-06-08 17:24:01.133 | DEBUG    | __main__:<module>:1 - === follow logs ===
-2020-06-08 17:26:40.060 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 17:26:40.438 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:18:05.652 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 18:18:05.712 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 18:18:05.771 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 18:18:05.828 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 18:18:05.887 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 18:18:05.945 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 18:18:06.008 | DEBUG    | __main__:<module>:1 - identity: sjxdpzo
-2020-06-08 18:18:06.066 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 18:18:06.126 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 18:18:06.185 | DEBUG    | __main__:<module>:1 - port: 24920
-2020-06-08 18:18:06.245 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 18:18:06.303 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 18:18:06.363 | DEBUG    | __main__:<module>:1 - logdir: data/sjxdpzo/logs
-2020-06-08 18:18:06.423 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 18:18:06.481 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 18:18:06.541 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 18:18:06.602 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 18:18:10.673 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh sjxdpzo 172.17.0.1 0.0.0.0 24920 http://172.17.0.1:8888 data/sjxdpzo/logs template
-2020-06-08 18:18:10.733 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 18:18:10.791 | DEBUG    | __main__:<module>:1 - === container image: bittensor:latest ===
-2020-06-08 18:18:13.088 | DEBUG    | __main__:<module>:1 - === follow logs ===
-2020-06-08 18:18:19.713 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:18:20.117 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:22:28.152 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 18:22:28.210 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 18:22:28.266 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 18:22:28.324 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 18:22:28.381 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 18:22:28.440 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 18:22:28.497 | DEBUG    | __main__:<module>:1 - identity: dzeaxht
-2020-06-08 18:22:28.556 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 18:22:28.615 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 18:22:28.673 | DEBUG    | __main__:<module>:1 - port: 18627
-2020-06-08 18:22:28.728 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 18:22:28.785 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 18:22:28.841 | DEBUG    | __main__:<module>:1 - logdir: data/dzeaxht/logs
-2020-06-08 18:22:28.898 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 18:22:28.958 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 18:22:29.017 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 18:22:29.077 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 18:22:31.628 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh dzeaxht 172.17.0.1 0.0.0.0 18627 http://172.17.0.1:8888 data/dzeaxht/logs template
-2020-06-08 18:22:31.687 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 18:22:31.746 | DEBUG    | __main__:<module>:1 - === container image: bittensor:latest ===
-2020-06-08 18:22:34.411 | DEBUG    | __main__:<module>:1 - === follow logs ===
-2020-06-08 18:22:44.790 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:22:44.986 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:27:39.891 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 18:27:39.950 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 18:27:40.009 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 18:27:40.066 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 18:27:40.125 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 18:27:40.185 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 18:27:40.244 | DEBUG    | __main__:<module>:1 - identity: hmojgiv
-2020-06-08 18:27:40.304 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 18:27:40.364 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 18:27:40.426 | DEBUG    | __main__:<module>:1 - port: 32581
-2020-06-08 18:27:40.484 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 18:27:40.547 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 18:27:40.609 | DEBUG    | __main__:<module>:1 - logdir: data/hmojgiv/logs
-2020-06-08 18:27:40.668 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 18:27:40.727 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 18:27:40.787 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 18:27:40.847 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 18:27:40.934 | DEBUG    | __main__:<module>:1 - Building template:latest
-2020-06-08 18:27:43.182 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh hmojgiv 172.17.0.1 0.0.0.0 32581 http://172.17.0.1:8888 data/hmojgiv/logs template
-2020-06-08 18:27:43.241 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 18:27:43.301 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
-2020-06-08 18:27:44.997 | DEBUG    | __main__:<module>:1 - === follow logs ===
-2020-06-08 18:27:50.422 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:27:52.366 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
-2020-06-08 18:34:00.467 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 18:34:00.528 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 18:34:00.586 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 18:34:00.644 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 18:34:00.702 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 18:34:00.762 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 18:34:00.820 | DEBUG    | __main__:<module>:1 - identity: rfcvppa
-2020-06-08 18:34:00.879 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 18:34:00.938 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 18:34:00.999 | DEBUG    | __main__:<module>:1 - port: 8779
-2020-06-08 18:34:01.057 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 18:34:01.118 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 18:34:01.174 | DEBUG    | __main__:<module>:1 - logdir: data/rfcvppa/logs
-2020-06-08 18:34:01.232 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 18:34:01.291 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 18:34:01.350 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 18:34:01.412 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 18:34:26.891 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
-2020-06-08 18:34:26.949 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
-2020-06-08 18:34:27.012 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
-2020-06-08 18:34:27.073 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
-2020-06-08 18:34:27.133 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
-2020-06-08 18:34:27.192 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
-2020-06-08 18:34:27.252 | DEBUG    | __main__:<module>:1 - identity: trpeywk
-2020-06-08 18:34:27.317 | DEBUG    | __main__:<module>:1 - remote: false
-2020-06-08 18:34:27.378 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
-2020-06-08 18:34:27.436 | DEBUG    | __main__:<module>:1 - port: 6489
-2020-06-08 18:34:27.494 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
-2020-06-08 18:34:27.554 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
-2020-06-08 18:34:27.612 | DEBUG    | __main__:<module>:1 - logdir: data/trpeywk/logs
-2020-06-08 18:34:27.670 | DEBUG    | __main__:<module>:1 - neuron: template
-2020-06-08 18:34:27.729 | DEBUG    | __main__:<module>:1 - upnpc: false
-2020-06-08 18:34:27.788 | DEBUG    | __main__:<module>:1 - === run locally. ===
-2020-06-08 18:34:27.847 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
-2020-06-08 18:52:05.992 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh trpeywk 172.17.0.1 0.0.0.0 6489 http://172.17.0.1:8888 data/trpeywk/logs template
-2020-06-08 18:52:06.049 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
-2020-06-08 18:52:06.105 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
-2020-06-08 18:52:08.346 | DEBUG    | __main__:<module>:1 - === follow logs ===
-2020-06-08 18:52:08.453 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:49:20.748 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 19:49:20.808 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 19:49:20.866 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 19:49:20.927 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 19:49:20.987 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 19:49:21.047 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 19:49:21.106 | DEBUG    | __main__:<module>:1 - identity: mtxvwnt
+2020-06-08 19:49:21.165 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 19:49:21.222 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 19:49:21.280 | DEBUG    | __main__:<module>:1 - port: 8459
+2020-06-08 19:49:21.338 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 19:49:21.395 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 19:49:21.455 | DEBUG    | __main__:<module>:1 - logdir: data/mtxvwnt/logs
+2020-06-08 19:49:21.514 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 19:49:21.574 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 19:49:21.634 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 19:49:21.694 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 19:49:23.325 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh mtxvwnt 172.17.0.1 0.0.0.0 8459 http://172.17.0.1:8888 data/mtxvwnt/logs template
+2020-06-08 19:49:23.382 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-08 19:49:23.438 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-08 19:49:28.421 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-08 19:49:30.681 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:49:30.768 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:53:41.437 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 19:53:41.497 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 19:53:41.556 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 19:53:41.614 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 19:53:41.673 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 19:53:41.733 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 19:53:41.792 | DEBUG    | __main__:<module>:1 - identity: ydjkqur
+2020-06-08 19:53:41.851 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 19:53:41.910 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 19:53:41.970 | DEBUG    | __main__:<module>:1 - port: 30195
+2020-06-08 19:53:42.029 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 19:53:42.089 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 19:53:42.147 | DEBUG    | __main__:<module>:1 - logdir: data/ydjkqur/logs
+2020-06-08 19:53:42.207 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 19:53:42.267 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 19:53:42.328 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 19:53:42.387 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 19:53:45.049 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh ydjkqur 172.17.0.1 0.0.0.0 30195 http://172.17.0.1:8888 data/ydjkqur/logs template
+2020-06-08 19:53:45.107 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-08 19:53:45.164 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-08 19:53:47.105 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-08 19:53:48.658 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:53:48.741 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:56:13.799 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 19:56:13.856 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 19:56:13.914 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 19:56:13.971 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 19:56:14.029 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 19:56:14.088 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 19:56:14.144 | DEBUG    | __main__:<module>:1 - identity: wmwexqx
+2020-06-08 19:56:14.201 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 19:56:14.258 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 19:56:14.316 | DEBUG    | __main__:<module>:1 - port: 13701
+2020-06-08 19:56:14.373 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 19:56:14.429 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 19:56:14.489 | DEBUG    | __main__:<module>:1 - logdir: data/wmwexqx/logs
+2020-06-08 19:56:14.549 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 19:56:14.606 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 19:56:14.663 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 19:56:14.721 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 19:56:20.036 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh wmwexqx 172.17.0.1 0.0.0.0 13701 http://172.17.0.1:8888 data/wmwexqx/logs template
+2020-06-08 19:56:20.096 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-08 19:56:20.156 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-08 19:56:22.615 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-08 19:56:24.195 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 19:57:40.532 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 19:57:40.591 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 19:57:40.649 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 19:57:40.707 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 19:57:40.767 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 19:57:40.826 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 19:57:40.885 | DEBUG    | __main__:<module>:1 - identity: tettfyj
+2020-06-08 19:57:40.945 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 19:57:41.006 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 19:57:41.066 | DEBUG    | __main__:<module>:1 - port: 18181
+2020-06-08 19:57:41.125 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 19:57:41.184 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 19:57:41.243 | DEBUG    | __main__:<module>:1 - logdir: data/tettfyj/logs
+2020-06-08 19:57:41.300 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 19:57:41.360 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 19:57:41.418 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 19:57:41.479 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 20:05:17.489 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 20:05:17.549 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 20:05:17.608 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 20:05:17.668 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 20:05:17.726 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 20:05:17.786 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 20:05:17.844 | DEBUG    | __main__:<module>:1 - identity: iroabye
+2020-06-08 20:05:17.905 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 20:05:17.965 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 20:05:18.026 | DEBUG    | __main__:<module>:1 - port: 27251
+2020-06-08 20:05:18.086 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 20:05:18.145 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 20:05:18.204 | DEBUG    | __main__:<module>:1 - logdir: data/iroabye/logs
+2020-06-08 20:05:18.265 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 20:05:18.323 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 20:05:18.383 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 20:05:18.442 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 20:06:13.677 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-08 20:06:13.735 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-08 20:06:13.794 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-08 20:06:13.853 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-08 20:06:13.914 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-08 20:06:13.975 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-08 20:06:14.035 | DEBUG    | __main__:<module>:1 - identity: rynpzsk
+2020-06-08 20:06:14.093 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-08 20:06:14.152 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-08 20:06:14.211 | DEBUG    | __main__:<module>:1 - port: 7852
+2020-06-08 20:06:14.269 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-08 20:06:14.329 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-08 20:06:14.387 | DEBUG    | __main__:<module>:1 - logdir: data/rynpzsk/logs
+2020-06-08 20:06:14.446 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-08 20:06:14.504 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-08 20:06:14.566 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-08 20:06:14.625 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-08 20:06:20.781 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh rynpzsk 172.17.0.1 0.0.0.0 7852 http://172.17.0.1:8888 data/rynpzsk/logs template
+2020-06-08 20:06:20.837 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-08 20:06:20.895 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-08 20:06:23.096 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-08 20:06:43.561 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-08 20:06:43.760 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 12:25:50.233 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 12:25:50.314 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 12:25:50.372 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 12:25:50.432 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 12:25:50.492 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 12:25:50.553 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 12:25:50.612 | DEBUG    | __main__:<module>:1 - identity: iqrgxvy
+2020-06-09 12:25:50.671 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 12:25:50.730 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 12:25:50.790 | DEBUG    | __main__:<module>:1 - port: 7250
+2020-06-09 12:25:50.849 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 12:25:50.908 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 12:25:50.968 | DEBUG    | __main__:<module>:1 - logdir: data/iqrgxvy/logs
+2020-06-09 12:25:51.027 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 12:25:51.089 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 12:25:51.148 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 12:25:51.207 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 12:25:56.228 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh iqrgxvy 172.17.0.1 0.0.0.0 7250 http://172.17.0.1:8888 data/iqrgxvy/logs template
+2020-06-09 12:25:56.289 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 12:25:56.352 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 12:25:59.741 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 12:38:08.486 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 12:38:09.147 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 12:40:58.810 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 12:40:58.869 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 12:40:58.928 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 12:40:58.988 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 12:40:59.046 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 12:40:59.106 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 12:40:59.166 | DEBUG    | __main__:<module>:1 - identity: zbqbbrc
+2020-06-09 12:40:59.227 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 12:40:59.287 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 12:40:59.348 | DEBUG    | __main__:<module>:1 - port: 21515
+2020-06-09 12:40:59.408 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 12:40:59.468 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 12:40:59.530 | DEBUG    | __main__:<module>:1 - logdir: data/zbqbbrc/logs
+2020-06-09 12:40:59.594 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 12:40:59.654 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 12:40:59.714 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 12:40:59.774 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 12:52:48.991 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh zbqbbrc 172.17.0.1 0.0.0.0 21515 http://172.17.0.1:8888 data/zbqbbrc/logs template
+2020-06-09 12:52:49.051 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 12:52:49.112 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 12:52:51.249 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 12:53:07.686 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 12:53:10.523 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:18:39.921 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 15:18:39.978 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 15:18:40.036 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 15:18:40.092 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 15:18:40.150 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 15:18:40.207 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 15:18:40.263 | DEBUG    | __main__:<module>:1 - identity: beywwzh
+2020-06-09 15:18:40.320 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 15:18:40.377 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 15:18:40.436 | DEBUG    | __main__:<module>:1 - port: 19961
+2020-06-09 15:18:40.495 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 15:18:40.554 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 15:18:40.614 | DEBUG    | __main__:<module>:1 - logdir: data/beywwzh/logs
+2020-06-09 15:18:40.673 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 15:18:40.734 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 15:18:40.792 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 15:18:40.850 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 15:19:03.066 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh beywwzh 172.17.0.1 0.0.0.0 19961 http://172.17.0.1:8888 data/beywwzh/logs template
+2020-06-09 15:19:03.124 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 15:19:03.183 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 15:19:06.783 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 15:19:39.085 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:19:39.274 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:20:00.923 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 15:20:00.981 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 15:20:01.039 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 15:20:01.099 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 15:20:01.159 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 15:20:01.218 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 15:20:01.278 | DEBUG    | __main__:<module>:1 - identity: dqbchum
+2020-06-09 15:20:01.338 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 15:20:01.400 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 15:20:01.460 | DEBUG    | __main__:<module>:1 - port: 29793
+2020-06-09 15:20:01.523 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 15:20:01.581 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 15:20:01.641 | DEBUG    | __main__:<module>:1 - logdir: data/dqbchum/logs
+2020-06-09 15:20:01.702 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 15:20:01.760 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 15:20:01.821 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 15:20:01.880 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 15:20:08.830 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh dqbchum 172.17.0.1 0.0.0.0 29793 http://172.17.0.1:8888 data/dqbchum/logs template
+2020-06-09 15:20:08.890 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 15:20:08.950 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 15:20:11.871 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 15:20:21.528 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:20:21.774 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:33:54.004 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 15:33:54.061 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 15:33:54.119 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 15:33:54.178 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 15:33:54.237 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 15:33:54.296 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 15:33:54.355 | DEBUG    | __main__:<module>:1 - identity: eechpsl
+2020-06-09 15:33:54.417 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 15:33:54.478 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 15:33:54.538 | DEBUG    | __main__:<module>:1 - port: 25903
+2020-06-09 15:33:54.598 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 15:33:54.657 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 15:33:54.715 | DEBUG    | __main__:<module>:1 - logdir: data/eechpsl/logs
+2020-06-09 15:33:54.775 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 15:33:54.833 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 15:33:54.893 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 15:33:54.952 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 15:34:18.274 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh eechpsl 172.17.0.1 0.0.0.0 25903 http://172.17.0.1:8888 data/eechpsl/logs template
+2020-06-09 15:34:18.332 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 15:34:18.391 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 15:34:21.170 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 15:34:31.287 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:34:31.478 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:43:15.054 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 15:43:15.113 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 15:43:15.171 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 15:43:15.229 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 15:43:15.288 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 15:43:15.347 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 15:43:15.406 | DEBUG    | __main__:<module>:1 - identity: jmxgkfl
+2020-06-09 15:43:15.468 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 15:43:15.531 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 15:43:15.589 | DEBUG    | __main__:<module>:1 - port: 11937
+2020-06-09 15:43:15.649 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 15:43:15.707 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 15:43:15.767 | DEBUG    | __main__:<module>:1 - logdir: data/jmxgkfl/logs
+2020-06-09 15:43:15.826 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 15:43:15.885 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 15:43:15.945 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 15:43:16.003 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 15:43:39.496 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh jmxgkfl 172.17.0.1 0.0.0.0 11937 http://172.17.0.1:8888 data/jmxgkfl/logs template
+2020-06-09 15:43:39.553 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 15:43:39.613 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 15:43:43.587 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 15:43:58.902 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:43:59.317 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:46:41.657 | DEBUG    | __main__:<module>:1 - ██████╗░██╗████████╗████████╗███████╗███╗░░██╗░██████╗░█████╗░██████╗░
+2020-06-09 15:46:41.717 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║╚══██╔══╝╚══██╔══╝██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗
+2020-06-09 15:46:41.775 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░█████╗░░██╔██╗██║╚█████╗░██║░░██║██████╔╝
+2020-06-09 15:46:41.836 | DEBUG    | __main__:<module>:1 - ██╔══██╗██║░░░██║░░░░░░██║░░░██╔══╝░░██║╚████║░╚═══██╗██║░░██║██╔══██╗
+2020-06-09 15:46:41.894 | DEBUG    | __main__:<module>:1 - ██████╦╝██║░░░██║░░░░░░██║░░░███████╗██║░╚███║██████╔╝╚█████╔╝██║░░██║
+2020-06-09 15:46:41.956 | DEBUG    | __main__:<module>:1 - ╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░╚═╝
+2020-06-09 15:46:42.015 | DEBUG    | __main__:<module>:1 - identity: jdismyv
+2020-06-09 15:46:42.075 | DEBUG    | __main__:<module>:1 - remote: false
+2020-06-09 15:46:42.134 | DEBUG    | __main__:<module>:1 - eosurl: http://172.17.0.1:8888
+2020-06-09 15:46:42.192 | DEBUG    | __main__:<module>:1 - port: 8403
+2020-06-09 15:46:42.251 | DEBUG    | __main__:<module>:1 - server_address: 172.17.0.1
+2020-06-09 15:46:42.309 | DEBUG    | __main__:<module>:1 - bind_address: 0.0.0.0
+2020-06-09 15:46:42.366 | DEBUG    | __main__:<module>:1 - logdir: data/jdismyv/logs
+2020-06-09 15:46:42.425 | DEBUG    | __main__:<module>:1 - neuron: template
+2020-06-09 15:46:42.488 | DEBUG    | __main__:<module>:1 - upnpc: false
+2020-06-09 15:46:42.546 | DEBUG    | __main__:<module>:1 - === run locally. ===
+2020-06-09 15:46:42.608 | DEBUG    | __main__:<module>:1 - === building bittensor image. ===
+2020-06-09 15:46:49.360 | DEBUG    | __main__:<module>:1 - Run command: ./scripts/bittensor.sh jdismyv 172.17.0.1 0.0.0.0 8403 http://172.17.0.1:8888 data/jdismyv/logs template
+2020-06-09 15:46:49.420 | DEBUG    | __main__:<module>:1 - === run the docker container locally ===
+2020-06-09 15:46:49.481 | DEBUG    | __main__:<module>:1 - === container image: template:latest ===
+2020-06-09 15:46:51.579 | DEBUG    | __main__:<module>:1 - === follow logs ===
+2020-06-09 15:46:59.307 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===
+2020-06-09 15:46:59.654 | DEBUG    | __main__:<module>:1 - === stop bittensor_container ===

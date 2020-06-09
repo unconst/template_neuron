@@ -1,5 +1,6 @@
 import argparse
-import bittensor
+import bittensor_proto.bittensor_pb2_grpc as bittensor_grpc
+import bittensor_proto.bittensor_pb2 as bittensor_pb2
 from Crypto.Hash import SHA256
 from concurrent import futures
 from datetime import timedelta
@@ -12,7 +13,7 @@ import numpy
 import grpc
 from timeloop import Timeloop
 
-class Neuron(bittensor.proto.bittensor_pb2_grpc.BittensorServicer):
+class Neuron(bittensor_grpc.BittensorServicer):
     def __init__(self, hparams, metagraph):
         self._hparams = hparams
         self._metagraph = metagraph
@@ -54,8 +55,8 @@ class Neuron(bittensor.proto.bittensor_pb2_grpc.BittensorServicer):
         spike_futures = []
         for i,channel in enumerate(self._channels):
             try:
-                stub = bittensor.proto.bittensor_pb2_grpc.BittensorStub(channel)
-                request = bittensor.proto.bittensor_pb2.SpikeRequest(
+                stub = bittensor_grpc.BittensorStub(channel)
+                request = bittensor_pb2.SpikeRequest(
                     version=1.0,
                     source_id=self._hparams.identity,
                     parent_id=self._hparams.identity,
@@ -107,8 +108,8 @@ class Neuron(bittensor.proto.bittensor_pb2_grpc.BittensorServicer):
         for channel in self._channels:
             try:
                 zeros_payload = pickle.dumps(numpy.zeros((1, self._hparams.n_embedding)), protocol=0)
-                stub = bittensor.proto.bittensor_pb2_grpc.BittensorStub(channel)
-                request = bittensor.proto.bittensor_pb2.GradeRequest(
+                stub = bittensor_grpc.BittensorStub(channel)
+                request = bittensor_pb2.GradeRequest(
                     version=1.0,
                     source_id=self._hparams.identity,
                     parent_id=self._hparams.identity,
@@ -152,7 +153,7 @@ class Neuron(bittensor.proto.bittensor_pb2_grpc.BittensorServicer):
         logger.info('{} --> S', request.source_id)
         inputs = numpy.asarray(pickle.loads(request.payload))
         zeros_payload = pickle.dumps(numpy.zeros((len(inputs), self._hparams.n_embedding)), protocol=0)
-        response = bittensor.proto.bittensor_pb2.SpikeResponse(
+        response = bittensor_pb2.SpikeResponse(
             version=1.0,
             source_id=request.source_id,
             child_id=self._hparams.identity,
@@ -162,7 +163,7 @@ class Neuron(bittensor.proto.bittensor_pb2_grpc.BittensorServicer):
 
     def Grade(self, request, context):
         logger.info('{} --> G', request.source_id)
-        return bittensor.proto.bittensor_pb2.GradeResponse(accept=True)
+        return bittensor_pb2.GradeResponse(accept=True)
 
 def set_timed_loops(tl, hparams, neuron, metagraph):
 
@@ -187,7 +188,7 @@ def main(hparams):
     neuron = Neuron(hparams, metagraph)
 
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-    bittensor.proto.bittensor_pb2_grpc.add_BittensorServicer_to_server(neuron, server)
+    bittensor_grpc.add_BittensorServicer_to_server(neuron, server)
     server.add_insecure_port(hparams.bind_address + ":" + hparams.port)
     server.start()
 

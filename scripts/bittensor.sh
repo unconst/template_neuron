@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 source ./scripts/constant.sh
 
+echo "script"
 # Arguments to this script.
 
 # Network identity
