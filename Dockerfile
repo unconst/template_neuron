@@ -31,16 +31,10 @@ RUN pip3 install --upgrade pip && \
   pip3 install grpcio-tools && \
   pip3 install libeospy && \
   pip3 install loguru && \
-  pip3 install matplotlib && \
   pip3 install "numpy<1.17" && \
-  pip3 install networkx && \
-  pip3 install pebble && \
   pip3 install pickle-mixin && \
   pip3 install pycrypto && \
-  pip3 install --upgrade setuptools && \
-  pip3 install timeloop && \
-  pip3 install zipfile36 && \
-  pip3 install tensorflow-datasets
+  pip3 install timeloop
 
 
 # Install Bittensor protos
