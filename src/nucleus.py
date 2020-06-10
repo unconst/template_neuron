@@ -1,11 +1,13 @@
+import tensorflow as tf
+
 
 class Nucleus():
-    def __init__(self, hparams):
+    def __init__(self, hparams, modelfn):
         self._hparams = hparams
         self._graph = tf.Graph()
         with self._graph.as_default(): 
-            self._modelfn = Modelfn(self._hparams)
-        self._session = tf.Session(graph = self._graph)
+            self._modelfn = modelfn
+        self._session = tf.compat.v1.Session(graph = self._graph)
 
     def dispatch(self, batch):
         '''
@@ -14,7 +16,7 @@ class Nucleus():
         Returns:
             dispatched: list[numpy_strings(-1, -1))
         '''
-        raise NotImplementedError
+        return None
 
     def combine(self, dspikes):
         '''
@@ -23,7 +25,7 @@ class Nucleus():
         Returns:
             combined: numpy_floats(batch_size, n_combined)
         '''
-        raise NotImplementedError
+        return None
 
 
     def spike(self, combined):
@@ -35,7 +37,10 @@ class Nucleus():
             spikes: numpy_floats(batch_size, n_spikes)
         '''
         #TODO (const): return the spike output from this node.
-        raise NotImplementedError
+        return None
+
+    def train(self, outputs, labels):
+        pass
 
     def grade(self, up_grads):
         # no op: template node is not differentiable.

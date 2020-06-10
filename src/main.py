@@ -1,7 +1,5 @@
 import argparse
-import bittensor_proto.bittensor_pb2_grpc as bittensor_grpc
-import bittensor_proto.bittensor_pb2 as bittensor_pb2
-from Crypto.Hash import SHA256
+from bittensor_proto import bittensor_pb2_grpc as bittensor_grpc
 from concurrent import futures
 from datetime import timedelta
 from metagraph import Metagraph
@@ -9,37 +7,23 @@ from neuron import Neuron
 from nucleus import Nucleus
 from synapse import Synapse
 from dendrite import Dendrite
+from model_fn import Modelfn
+from datasets import Dataset
 from loguru import logger
-import pickle
-import random
 import time
-import numpy
 import grpc
 from timeloop import Timeloop
 
-def set_timed_loops(tl, hparams, neuron, metagraph):
-
-    # Pull the updated graph state (Vertices, Edges, Weights)
-    @tl.job(interval=timedelta(seconds=5))
-    def pull_metagraph():
-        metagraph.pull_metagraph()
-
-    # Reselect channels.
-    @tl.job(interval=timedelta(seconds=2))
-    def connect():
-        neuron.connect()
-
-    # Reselect channels.
-    @tl.job(interval=timedelta(seconds=1))
-    def query():
-        neuron.query()
+def set_timed_loops(tl, hparams, neuron):
+    pass
 
 def main(hparams): 
     metagraph = Metagraph(hparams)
-    modelfn = ModelFn(hparams)
+    modelfn = Modelfn(hparams)
     nucleus = Nucleus(hparams, modelfn)
     dendrite = Dendrite(hparams, metagraph)
-    neuron = Neuron(hparams, nucleus, dendrite)
+    dataset = Dataset(hparams)
+    neuron = Neuron(hparams, nucleus, dendrite, dataset)
     synapse = Synapse(hparams, neuron, metagraph)
 
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
@@ -50,7 +34,7 @@ def main(hparams):
     neuron.start_training()
 
     tl = Timeloop()
-    set_timed_loops(tl, hparams, neuron, metagraph)
+    set_timed_loops(tl, hparams, neuron)
     tl.start(block=False)
     logger.info('Started Timers.')
 
@@ -62,14 +46,14 @@ def main(hparams):
 
     except KeyboardInterrupt:
         logger.debug('Neuron stopped with keyboard interrupt.')
-        server.stop()
+        server.stop(2)
         del neuron
         del metagraph
         del synapse
 
     except Exception as e:
         logger.error('Neuron stopped with interrupt on error: ' + str(e))
-        server.stop()
+        server.stop(2)
         del neuron
         del metagraph
 
