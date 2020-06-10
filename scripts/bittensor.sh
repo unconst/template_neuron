@@ -112,7 +112,7 @@ function start_neuron() {
   # Start our Neuron object training, server graph, open dendrite etc.
   log ""
   log "=== start Neuron ==="
-  COMMAND="python3 main.py --identity $IDENTITY --serve_address $SERVE_ADDRESS --bind_address $BIND_ADDRESS --port $PORT --eosurl $EOSURL --logdir $LOGDIR"
+  COMMAND="python3 src/main.py --identity $IDENTITY --serve_address $SERVE_ADDRESS --bind_address $BIND_ADDRESS --port $PORT --eosurl $EOSURL --logdir $LOGDIR"
   log "$COMMAND"
   eval $COMMAND &
   NueronPID=$!
@@ -137,7 +137,6 @@ function main() {
   log "}"
   log ""
   log "=== setup accounts ==="
-
 
   # TODO(const) These are currently hard coded to eosio main. In prodution this
   # should absolutely change.

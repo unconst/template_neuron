@@ -184,7 +184,7 @@ function start_local_service() {
   docker run --rm --name bittensor-$identity -d  -t \
   -p $port:$port \
   --mount type=bind,src="$(pwd)"/scripts,dst=/bittensor/scripts \
-  --mount type=bind,src="$(pwd)"/data/cache,dst=/bittensor/cache \
+  --mount type=bind,src="$(pwd)"/data/$identity,dst=/bittensor/data/$identity \
   --mount type=bind,src="$(pwd)",dst=/bittensor \
   $DOCKER_IMAGE_NAME:$DOCKER_IMAGE_TAG /bin/bash -c "$COMMAND"
 
@@ -281,6 +281,10 @@ function main() {
   log "logdir: $logdir"
   log "neuron: $neuron"
   log "upnpc: $upnpc"
+
+  # Build local logging dir.
+  log "Log to: data/$identity"
+  mkdir -p "data/$identity"
 
   if [ "$remote" == "true" ]; then
     if [ "$token" == "none" ]; then
